@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'sf-pro';
+    src: url(font/SF_PRO.ttf);
+    font-weight: 700;
+}
+
+main{
+    width: 430px;
+    color: #aa00ff;
+    font-size: 4em;
+    font-family: sf-pro;
+    border: 5px solid #aa00ff;
+    border-radius: 10px;
+}
+
+.clock{
+    padding: 0.8em;
+    white-space: nowrap;
+}
+
+
